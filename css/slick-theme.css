@@ -1,0 +1,85 @@
+@charset 'UTF-8';
+
+/* Arrows */
+.slick-prev
+{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    display: block;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+    cursor:url('../images/arrowback.png'),w-resize;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: #000;
+    opacity: 0.0;
+}
+
+.slick-next
+{
+    position: absolute;
+    left:60%;
+    top: 10%;
+    display: block;
+    width: 40%;
+    height: 100%;
+    padding: 0;
+    cursor:url('../images/arrow.png'),e-resize;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: #000;
+    opacity: 0.0;
+}
+
+@media only screen and (max-width:679px) {
+    .slick-prev, .slick-next {z-index:-90;}}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+
+.slick-next
+{
+    right: -25px;
+}
+
+.slick-next:before
+{
+    content: '';
+}
+
+/* Dots */
+.slick-slider
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.slick-dots
+{
+    height: 0px;
+    visibility: hidden;
+    display:none;
+}

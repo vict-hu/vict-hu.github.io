@@ -1,0 +1,161 @@
+@import url(reset.css); 
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+	font-family: graphikbold;
+	font-size: 13px;
+	line-height: 18px;
+	word-spacing: 0px;
+	background-color: #fff;
+	margin: 0px;
+	padding-left: 20px;
+}
+
+@font-face {
+    font-family: 'graphikbold';
+    src: url('fontface/graphik-bold-webfont.eot');
+    src: url('fontface/graphik-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/graphik-bold-webfont.woff') format('woff'),
+         url('fontface/graphik-bold-webfont.ttf') format('truetype'),
+         url('fontface/graphik-bold-webfont.svg#graphikbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+	padding-top: 20px;
+	padding-left: 10px;
+	min-width: 900px;
+	display: inline-block;
+}
+	
+a { 
+	color:#003;
+	border-bottom: 5px solid #003;
+	text-decoration: none;
+}
+
+.project img {
+	cursor: url(images/cursor.png) 20 20, auto;
+}
+
+.project {
+	display: inline-block;
+	margin:40px 10px 0px 10px;
+	padding:0px;
+	min-height: 330px;	
+	/*width:25%;*/
+}
+
+.project-vert {
+	display: inline-block;
+	margin:40px 10px 0px 10px;
+	padding:0px;
+	min-height: 330px;	
+	/*width:25%;*/
+} 
+
+.explanation {
+	margin-top: -20px;
+	padding-top: 14px;
+	font-size: 22px;
+	line-height: 14px;
+	text-align: left;
+	background-color: #fff;
+}
+
+.project .title {
+	display: none;
+}
+.project-vert .title {
+	display: none;
+}
+
+.menubg {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	min-height: 70px;
+	width: 100%;
+	z-index: 10;
+	background-color: #fff;
+}
+
+.name {
+	position: fixed;
+	font-family: 'graphikbold' sans-serif;
+	color: #003;
+	font-size: 35px;
+	line-height: 28px;
+	letter-spacing: -1px;
+	top: 15px;
+	left: 50%;
+	margin-left: -200px;
+	border-bottom: 5px;
+	width: 400px;
+	height: 30px;
+	z-index: 110;
+	text-align: center;
+	background-color: #fff;
+}
+
+.name a { 
+	color:#003;
+	border-bottom: 5px solid #003;
+	text-decoration: none;
+}
+
+.banner {
+	position: fixed;
+	font-family: 'rasmusbold' sans-serif;
+	color: #003;
+	font-size: 24px;
+	line-height: 28px;
+	top: 15px;
+	right: 20px;
+	height: 30px;
+	min-width: 280px;	
+	z-index: 200;
+	padding-left: 205px;
+}
+
+.email a {
+	position: fixed;
+	font-family: 'rasmusbold' sans-serif;
+	color: #003;
+	font-size: 24px;
+	top: 18px;
+	right: 30px;
+	z-index: 90;
+}
+
+.footer {
+	position: fixed;
+	font-family: 'rasmusbold' sans-serif;
+	color: #003;
+	font-size: 17px;
+	letter-spacing: -1px;
+	width: 250px;
+	bottom: 0px;
+	left: 0px;
+	padding-left: 40px;
+	padding-top: 5px;
+	height: 25px;
+	z-index: 100;
+	background-color: #f6f6f6;
+}
+
+#cv {
+	visibility: hidden;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+}
+
+#cv a {
+	border-bottom: 0px;
+}

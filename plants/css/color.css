@@ -1,0 +1,99 @@
+body.misc{background-color:#515151;color:#ffffff;}
+body.misc *::selection{color:#515151 !important;background:#ffffff !important;}
+body.misc *::-moz-selection{color:#515151 !important;background:#ffffff !important;}
+body.misc a{color:#ffffff;}
+body.misc nav>ul>li.active>a,body.misc article,body.misc article a{border-color:#ffffff;}
+body.category.misc article.misc{display: block;}
+body.misc input{color:#ffffff;}
+body.misc ::-webkit-input-placeholder{color:#ffffff;}
+body.misc ::-moz-input-placeholder{color:#ffffff;}
+body.misc ::-ms-input-placeholder{color:#ffffff;}
+body.misc input[placeholder], [placeholder], *[placeholder] {color:#ffffff;}
+body.workshops{background-color:#000000;color:#ffffff;}
+body.workshops *::selection{color:#000000 !important;background:#ffffff !important;}
+body.workshops *::-moz-selection{color:#000000 !important;background:#ffffff !important;}
+body.workshops a{color:#ffffff;}
+body.workshops nav>ul>li.active>a,body.workshops article,body.workshops article a{border-color:#ffffff;}
+body.category.workshops article.workshops{display: block;}
+body.workshops input{color:#ffffff;}
+body.workshops ::-webkit-input-placeholder{color:#ffffff;}
+body.workshops ::-moz-input-placeholder{color:#ffffff;}
+body.workshops ::-ms-input-placeholder{color:#ffffff;}
+body.workshops input[placeholder], [placeholder], *[placeholder] {color:#ffffff;}
+body.illustrations{background-color:#858585;color:#000000;}
+body.illustrations *::selection{color:#858585 !important;background:#000000 !important;}
+body.illustrations *::-moz-selection{color:#858585 !important;background:#000000 !important;}
+body.illustrations a{color:#000000;}
+body.illustrations nav>ul>li.active>a,body.illustrations article,body.illustrations article a{border-color:#000000;}
+body.category.illustrations article.illustrations{display: block;}
+body.illustrations input{color:#000000;}
+body.illustrations ::-webkit-input-placeholder{color:#000000;}
+body.illustrations ::-moz-input-placeholder{color:#000000;}
+body.illustrations ::-ms-input-placeholder{color:#000000;}
+body.illustrations input[placeholder], [placeholder], *[placeholder] {color:#000000;}
+body.exhibitions{background-color:#bfbfbf;color:#000000;}
+body.exhibitions *::selection{color:#bfbfbf !important;background:#000000 !important;}
+body.exhibitions *::-moz-selection{color:#bfbfbf !important;background:#000000 !important;}
+body.exhibitions a{color:#000000;}
+body.exhibitions nav>ul>li.active>a,body.exhibitions article,body.exhibitions article a{border-color:#000000;}
+body.category.exhibitions article.exhibitions{display: block;}
+body.exhibitions input{color:#000000;}
+body.exhibitions ::-webkit-input-placeholder{color:#000000;}
+body.exhibitions ::-moz-input-placeholder{color:#000000;}
+body.exhibitions ::-ms-input-placeholder{color:#000000;}
+body.exhibitions input[placeholder], [placeholder], *[placeholder] {color:#000000;}
+body.interactive{background-color:#6a6a6a;color:#ffffff;}
+body.interactive *::selection{color:#6a6a6a !important;background:#ffffff !important;}
+body.interactive *::-moz-selection{color:#6a6a6a !important;background:#ffffff !important;}
+body.interactive a{color:#ffffff;}
+body.interactive nav>ul>li.active>a,body.interactive article,body.interactive article a{border-color:#ffffff;}
+body.category.interactive article.interactive{display: block;}
+body.interactive input{color:#ffffff;}
+body.interactive ::-webkit-input-placeholder{color:#ffffff;}
+body.interactive ::-moz-input-placeholder{color:#ffffff;}
+body.interactive ::-ms-input-placeholder{color:#ffffff;}
+body.interactive input[placeholder], [placeholder], *[placeholder] {color:#ffffff;}
+body.identities{background-color:#a2a2a2;color:#000000;}
+body.identities *::selection{color:#a2a2a2 !important;background:#000000 !important;}
+body.identities *::-moz-selection{color:#a2a2a2 !important;background:#000000 !important;}
+body.identities a{color:#000000;}
+body.identities nav>ul>li.active>a,body.identities article,body.identities article a{border-color:#000000;}
+body.category.identities article.identities{display: block;}
+body.identities input{color:#000000;}
+body.identities ::-webkit-input-placeholder{color:#000000;}
+body.identities ::-moz-input-placeholder{color:#000000;}
+body.identities ::-ms-input-placeholder{color:#000000;}
+body.identities input[placeholder], [placeholder], *[placeholder] {color:#000000;}
+body.posters{background-color:#3a3a3a;color:#ffffff;}
+body.posters *::selection{color:#3a3a3a !important;background:#ffffff !important;}
+body.posters *::-moz-selection{color:#3a3a3a !important;background:#ffffff !important;}
+body.posters a{color:#ffffff;}
+body.posters nav>ul>li.active>a,body.posters article,body.posters article a{border-color:#ffffff;}
+body.category.posters article.posters{display: block;}
+body.posters input{color:#ffffff;}
+body.posters ::-webkit-input-placeholder{color:#ffffff;}
+body.posters ::-moz-input-placeholder{color:#ffffff;}
+body.posters ::-ms-input-placeholder{color:#ffffff;}
+body.posters input[placeholder], [placeholder], *[placeholder] {color:#ffffff;}
+body.printed-matter{background-color:#252525;color:#ffffff;}
+body.printed-matter *::selection{color:#252525 !important;background:#ffffff !important;}
+body.printed-matter *::-moz-selection{color:#252525 !important;background:#ffffff !important;}
+body.printed-matter a{color:#ffffff;}
+body.printed-matter nav>ul>li.active>a,body.printed-matter article,body.printed-matter article a{border-color:#ffffff;}
+body.category.printed-matter article.printed-matter{display: block;}
+body.printed-matter input{color:#ffffff;}
+body.printed-matter ::-webkit-input-placeholder{color:#ffffff;}
+body.printed-matter ::-moz-input-placeholder{color:#ffffff;}
+body.printed-matter ::-ms-input-placeholder{color:#ffffff;}
+body.printed-matter input[placeholder], [placeholder], *[placeholder] {color:#ffffff;}
+body.books{background-color:#dfdfdf;color:#000000;}
+body.books *::selection{color:#dfdfdf !important;background:#000000 !important;}
+body.books *::-moz-selection{color:#dfdfdf !important;background:#000000 !important;}
+body.books a{color:#000000;}
+body.books nav>ul>li.active>a,body.books article,body.books article a{border-color:#000000;}
+body.category.books article.books{display: block;}
+body.books input{color:#000000;}
+body.books ::-webkit-input-placeholder{color:#000000;}
+body.books ::-moz-input-placeholder{color:#000000;}
+body.books ::-ms-input-placeholder{color:#000000;}
+body.books input[placeholder], [placeholder], *[placeholder] {color:#000000;}

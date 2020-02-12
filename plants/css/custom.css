@@ -1,0 +1,18 @@
+@media only screen and (min-width: 300px) and (max-width:736px){ 
+/*
+	article .img_container.loaded a img{
+		width: 400px;
+		height: auto;
+		display: inline-block;
+	}
+	article .img_container a{
+		text-align: center;
+	}
+*/
+	#wrapper, body article, #about{
+	  width: calc(100% - 24px)!important;
+	}
+	article .img_container{
+	  height: auto !important;
+	}
+}
