@@ -1,0 +1,474 @@
+html {
+    background: rgba(255,220,0,0);
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font: 13pt/130% 'IBM Plex Sans', helvetica, arial, sans-serif;
+    color:#111;
+    padding:0px;
+    margin:0px;
+    min-height:100%;
+    width:98vw;
+    flex-direction: column;
+}
+b {
+    font-weight: 900;
+}
+a:link, a:visited {
+    text-decoration: underline;
+    color:#111;
+}
+
+a:hover, a:active {
+    color: coral;
+}
+.top-left {
+    display:none;
+}
+
+@media all and (min-width: 900px) {
+
+#tycontainer {
+    background-color:#ffa;
+    height: 100vw;
+    width: 100vw;
+}
+
+#tycontainer .sections .panel #intro a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14pt;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 18px 14px 20px 14px;
+    line-height: 20px;
+    border-radius: 85%;
+    text-align: center;
+    border: 3px solid #111;
+    background-color: #111;
+    color: #ffa;
+}
+
+.sections {
+    padding-top: 20px;
+    width: 90vw;
+}
+.sections > button {
+    font: 300 9pt/200% 'IBM Plex Sans', helvetica, arial, sans-serif;
+    color:#fff;
+    background-color:#111;
+    display: static;
+    margin-left: 24vw;
+    text-transform: uppercase;
+}
+#logo {
+    position: absolute;
+    top:20px; 
+    left: 20px; 
+    width:19vw;
+    z-index:90;
+}
+.language {
+    position:absolute;
+    right:30px;
+    top: 20px;
+    text-transform: uppercase;
+}
+.language > span {
+    display: block;
+    padding: 0px 5px;
+    margin: 10px 5px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #111;
+}
+.language > span > a {
+    font: bold 14pt/200% 'IBM Plex Sans', helvetica, arial, sans-serif;
+    text-decoration: none;
+    color: #111;
+}
+.language > span:hover {
+    background-color:#ffa;
+}
+
+#container .footer {
+    font: 700 10pt 'IBM Plex Sans', helvetica, arial, sans-serif;
+    padding-bottom: 20px;
+    padding-left: 24vw;
+}
+#tycontainer .footer {
+    font: 700 10pt 'IBM Plex Sans', helvetica, arial, sans-serif;
+    position: absolute;
+    left: 24vw;
+    bottom: 1vw;
+}
+.mobilemenu {
+    font: 300 20pt 'IBM Plex Sans', helvetica, arial, sans-serif;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+}
+#tycontainer .mobilemenu {
+    color: #ffa;
+}
+.mobilemenu > img {
+    height: 24px; 
+    display: inline-flex;
+}
+.panel {
+    margin-left: 24vw;
+    position: static;
+    width: 64vw;
+    transition: max-height 0.2s ease-out;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #111;
+}
+.panel > p > a {
+    text-align: center;
+    color:#111;
+    text-decoration: underline;
+}
+#about {
+    position: static;
+    margin-bottom: 50px;
+}
+#intro {
+    font: 18pt 'IBM Plex Sans', helvetica, arial, sans-serif;
+ 
+}
+#about > p > #circled {
+    font-size: 16pt;
+    font-weight: 700;
+    padding: 1px 6px 2px 8px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #111;
+}  
+
+#mc_embed_signup {
+    width:480px;
+    clear:left;
+}
+
+#about > p > a > img {
+    height: 30px;
+    padding: 0px 15px;
+    vertical-align: top;
+}  
+
+#blog {
+    position: static;
+    height: 450px;
+    overflow:hidden;
+    margin-bottom: 30px;
+}
+
+.rss-box-aad {
+    border: 0;
+    width: 70vw;
+    margin:30px 6vw 25px 0px;
+    text-align:left;
+    border:0px solid #333333;
+}
+.rss-box-aad > ul {
+    width:90%;
+    padding: 0px;
+    list-style-type: none;
+}
+.rss-item {
+    width:100%;
+    padding-bottom:10px;
+}
+.rss-item a {
+    font: 300 16pt 'IBM Plex Sans', helvetica, arial, sans-serif; 
+}
+.rss-date {
+    font: 10pt 'IBM Plex Sans', helvetica, arial, sans-serif; 
+}
+#cal {
+    position: static;
+    margin-bottom: 50px;
+}
+#cal iframe {
+    width: 100%;
+    margin:30px 6vw 25px 0px;
+}
+#ig {
+    position: static;
+    right: 5%;
+    margin-bottom: 50px;
+}
+#ig iframe {
+    border: 0;
+    width: 100%;
+    margin:12px 6vw 25px -4px;
+}
+#ml {
+    position: static;
+    right: 5%;
+    margin-bottom: 50px;
+}
+#ml iframe {
+    border: 0;
+    width: 100%;
+    margin:12px 6vw 25px -4px;
+}
+}
+
+/* Too narrow to support three columns */
+    
+@media all and (max-width: 900px) {
+    body {
+        height:100%;
+        padding:0px;
+        margin:0px;
+    }  
+    #logo {
+        position: absolute;
+        top: 20px;
+        left: 6vw;
+    }
+    #logo img {
+        height: 200px;
+    }
+    #container {
+        height: 100%;
+        width: 100vw;
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }   
+    #tycontainer {
+        background-color: #ffa;
+        height: 100%;
+        width: 100vw;
+        position: absolute;
+    }   
+    #tycontainer .sections .mobilemenu {
+        border: none;
+        cursor: pointer;
+        width: 100vw;
+        padding: 0 0 16px 6vw;
+        text-align: left;
+        outline: none;
+        font: 300 38pt/38pt 'IBM Plex Sans', helvetica, arial, sans-serif;
+        transition: 0.4s;
+        background-color: #ffa;
+        letter-spacing: -0.5pt;
+    }
+    #tycontainer .sections .panel #intro a {
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 14pt;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 18px 14px 20px 14px;
+        line-height: 20px;
+        border-radius: 85%;
+        text-align: center;
+        border: 3px solid #111;
+        background-color: #111;
+        color: #ffa;
+    }
+    .sections {
+        position: absolute;
+        top: 240px;
+        left: 0;
+    }
+    #container .footer {
+        font: 700 14pt 'IBM Plex Sans', helvetica, arial, sans-serif;
+        padding: 0 10vw 14px;
+        width: 80vw;
+        text-align: right;
+    }
+    #tycontainer .footer {
+        position: absolute;
+        bottom: 2vw;
+        right: 4vw;
+        font: 700 14pt 'IBM Plex Sans', helvetica, arial, sans-serif;    
+    }
+    .language {
+        position:absolute;
+        right:40px;
+        top: 40px;
+        text-transform: uppercase;
+        }
+    .language > span {
+        display: block;
+        padding: 0px 5px;
+        margin: 10px 5px;
+        border-radius: 50%;
+        text-align: center;
+        border: 2px solid #111;
+    }
+    .language > span > a {
+        font: bold 14pt/200% 'IBM Plex Sans', helvetica, arial, sans-serif;
+        text-decoration: none;
+        color: #111;
+    }
+    .language > span:hover {
+        background-color:#ffa;
+    }
+    .top-left {
+        display:none;
+    }        
+    .mobilemenu {
+        border-style: solid;
+        border-width: 1px 0px 0px 0px;
+        border-color: #111;
+        cursor: pointer;
+        width: 100vw;
+        padding-left:6vw;
+        text-align: left;
+        outline: none;
+        font: 300 38pt 'IBM Plex Sans', helvetica, arial, sans-serif;
+        transition: 0.4s;
+        background-color: #fff;
+        letter-spacing: -0.5pt;
+    }
+    .mobilemenu > img {
+        height: 38px; 
+        display: inline-block;
+    }
+
+    #tycontainer .sections .panel {
+        background-color: #ffa;
+        padding: 0;
+        overflow: visible;
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .panel {
+        background-color: #fff;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    #about {
+        position: static;
+    }
+    #about > p {
+        z-index:300;
+        margin:2px 6vw 25px;
+        width: 88vw;
+    }
+    #about > p > a {
+        color: #111;
+        text-decoration: underline;    
+    } 
+    #about > p > #circled {
+        font-size: 13pt;
+        font-weight: 700;
+        padding: 0px 4px 1px 5px;
+        line-height: 20px;
+        border-radius: 50%;
+        text-align: center;
+        border: 2px solid #111;
+    }
+    #about > p > a > img {
+        height: 27px;
+        padding: 0px 10px;
+        vertical-align: top;
+    }  
+    #mc_embed_signup {
+        margin-left: 6vw !important; 
+        padding-left: 0px !important;
+        width:380px;
+        clear:left;
+    }
+
+    #blog {
+        position: static;
+    }
+    #blog .blogrss {
+        padding-right:6vw;
+        width: 94vw;
+    }
+    #blog .wpblogrss {
+        margin-left: 6vw;
+        width: 94vw;
+    }
+    .rss-box-aad {
+        border: 0;
+        text-align:left;
+        border:0px solid #333333;
+        width: 88vw;
+        margin:2px 0 25px 6vw;
+    }
+    .rss-box-aad > ul {
+        width:95%;
+        padding: 0px;
+        list-style-type: none;
+    }
+    .rss-item {
+        width:100%;
+        padding-bottom:10px;
+    }
+    .rss-item a {
+        font: 300 16pt 'IBM Plex Sans', helvetica, arial, sans-serif; 
+    }
+    .rss-date {
+        font: 10pt 'IBM Plex Sans', helvetica, arial, sans-serif; 
+    }
+    #cal {
+        position: static;
+    }
+    #cal iframe {
+        width: 88vw;
+        margin:2px 6vw 25px;
+    }
+    #ig {
+        position: static;
+        margin-left:-4px;
+        width: 88vw;
+        margin:2px 6vw 25px;
+    }
+    #ig iframe {
+        border: 0;
+    }
+}
+
+/* MailChimp Form Embed Code - Slim - 12/15/2015 v10.7 */
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 0}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:2px solid #000; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#000;}
+#mc_embed_signup .button {clear:both; background-color: #ffa; border: 5 none; border-radius:4px; letter-spacing:.03em; font-weight: 400; color: #000; cursor: pointer; display: inline-block; font-size:17px; height: 32px; line-height: 27px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto; transition: all 0.23s ease-in-out 0s;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}     
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:19px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup input.email {font-size: 17px; letter-spacing:.03em; line-height: 27px; display:block; padding:0 .9em; margin:0 4% 10px 0; min-height:32px; width:58%; min-width:130px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc_embed_signup input.button {display:block; width:25%; margin:0 0 10px 0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+
+.entry-content p {line-height: 1.4; }
+.post-preview time {font: 400 10pt 'IBM Plex Sans', helvetica, arial, sans-serif; color: #111; padding-top: 7px;}
+.title {font: 400 14pt 'IBM Plex Sans', helvetica, arial, sans-serif; color: #111;}
+.posts .list-title a {color: #111;}
+.posts .list-title a:hover {color: #777;}
+.site-content {width:100%}
+.section-inner {padding: 0 80px 200px 80px; width: 100%; max-width: 1200px;}
+.posts:first-child {margin-top: 30px;}
+body {background: #fff; border: none; color: #111; font: 400 14pt 'IBM Plex Sans', helvetica, arial, sans-serif; padding-left: 0;}
+.menu-wrapper {height: 100%; margin-top: 30px; overflow: hidden; padding-bottom: 30px; width: 100%;}
+.post-preview {border-top: 1px solid #fff; position: relative;}
+.post-preview a {padding: 10px 0;}
+.site-header {padding: 30px 0 30px 80px; position: relative; bottom: auto; left: auto; top: auto; width: 100%; z-index: 10001;}
