@@ -1,0 +1,24 @@
+* { box-sizing: border-box;
+}
+html,body {
+   height: 100%;
+   margin: 0;
+}
+.footer {
+   height: 10vh;
+   background-color: #eee;
+   text-align: center;
+}
+.wrapper {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1px;
+   justify-content: center;
+   height: 90vh;
+}
+.box {
+   background-color: #444;
+   color: #fff;
+   padding: 10px;
+   font-size: 12px;
+}
