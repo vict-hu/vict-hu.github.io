@@ -6,7 +6,7 @@ html,body {
 }
 .footer {
    height: 10vh;
-   background-color: #eee;
+   background-color: #1f1f1f;
    text-align: center;
 }
 .wrapper {
@@ -17,8 +17,8 @@ html,body {
    height: 90vh;
 }
 .box {
-   background-color: #444;
-   color: #fff;
+   background-color: #1f1f1f;
+   color: #1f1f1f;
    padding: 10px;
    font-size: 12px;
 }
